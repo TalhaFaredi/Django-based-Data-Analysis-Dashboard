@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background-color: #13c344; /* Updated Navbar color */
+      color: #fff;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 0.5rem 1rem;
+    }
+
+    nav a:hover {
+      background-color: #00971b; /* Updated Navbar hover color */
+    }
+
+    /* Hero Section */
+    .hero {
+      background-image: url("afridi.jpg");
+      background-size: cover;
+      height: 70vh; /* Updated Hero section height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem; /* Adjusted font size */
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.8rem; /* Adjusted font size */
+      line-height: 1.5;
+    }
+
+    .hero a {
+      background-color: #fff;
+      color: #13c344; /* Matching Navbar color */
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border: 1px solid #13c344; /* Matching Navbar color */
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .hero a:hover {
+      background-color: #00971b; /* Updated hover color */
+    }
+
+    /* Image Grid */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      padding: 2rem;
+    }
+
+    .image-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      padding: 2rem;
+    }
+
+    .image-card h4 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .image-card p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    /* CEO Section */
+    .ceo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #13c344;
+      color: #fff;
+      padding: 4rem 2rem;
+    }
+
+    .ceo img {
+      width: 200px;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+
+    .ceo-content {
+      text-align: center;
+    }
+
+    .ceo h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .ceo p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .testimonials h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .testimonial-card {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(6, 113, 6, 0.2);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .testimonial-card p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-card h4 {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    footer p,
+    footer a {
+      margin: 0.5rem;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Your Inspiring Headline</h1>
+    <p>A captivating description of your business or passion.</p>
+    <a href="#">Explore More</a>
+  </section>
+
+  <section class="image-grid">
+    <div class="image-card">
+      <img src="not4.jpg" alt="Image 1">
+      <h4>Title 1</h4>
+      <p>Short description.</p>
+    </div>
+    <div class="image-card">
+      <img src="out5.jpg" alt="Image 2">
+      <h4>Title 2</h4>
+      <p>Short description.</p>
+    </div>
+  </section>
+
+  <section class="ceo">
+    <img src="f.JPG" alt="CEO Image">
+    <div class="ceo-content">
+      <h2>CEO's Message</h2>
+      <p>"Inspiring quote from your CEO."</p>
+      <a href="#">Read More</a>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What People Say</h2>
+    <div class="testimonial-card">
+      <p>"Fantastic service! Highly recommend them!"</p>
+      <h4>- John Doe, CEO of Company X</h4>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Your Business Name 2023</p>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms & Conditions</a>
+  </footer>
+
+</body>
+</html>
